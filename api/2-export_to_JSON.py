@@ -29,4 +29,4 @@ if __name__ == '__main__':
         finalDict.append(formattedDict)
 
     with open(f'{user_id}.json', 'w') as f:
-        json.dump({{user_id}: finalDict}, f)
+        json.dump({user_id: finalDict}, f)
