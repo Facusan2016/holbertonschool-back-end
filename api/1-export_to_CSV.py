@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     with open(f'{user_id}.csv', 'w', newline='') as f:
 
-        writer = csv.writer(f)
+        writer = csv.writer(f, dialect='excel')
         writer.writerow(["USER_ID",
                          "USERNAME",
                          "TASK_COMPLETED_STATUS",
@@ -29,4 +29,5 @@ if __name__ == '__main__':
             writer.writerow([user_id,
                              user_data['name'],
                              task['completed'],
-                             task['title']])
+                             task['title']],
+                             )
