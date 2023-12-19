@@ -1,0 +1,1 @@
+In this section we're working with api' trying to understand the principles
