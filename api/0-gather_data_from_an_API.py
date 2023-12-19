@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import requests
-from sys import argv
-
 """
     Program to gather data from an API.
 """
+import requests
+from sys import argv
 
 if __name__ == '__main__':
     """
